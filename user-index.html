@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="./bootstrap_assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- nav bar start -->
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top ">
+            <div class="container-fluid shadow mb-2 bg-body rounded pb-2">
+                <a class="navbar-brand d-flex justify-content-between align-items-center" href="#"><img src="Assets/Vote Tech.png" width="40" height="40" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse pe-5" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-lg-0 d-flex justify-content-between align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#aboutUs">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#feedback">Feedback</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Account
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="admin-signup.html" target="_blank">Sign Up</a></li>
+                                <li><a class="dropdown-item" href="admin-login.html" target="_blank">Log In</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn-primary px-4 py-1 rounded" type="submit" href="admin-login.html" target="_blank">Get Started</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- nav bar end -->
+
+    <!-- main contents -->
+    <main>
+        <!-- image slider start -->
+        <section class="hero">
+            <div class="slider">
+                <div class="slides">
+                    <div class="slide active">
+                        <img src="./Assets/vote bg.jpg" width="10px" alt="Slide 1">
+                    </div>
+                    <div class="slide">
+                        <img src="./Assets/vote bg 2.jpeg" width="10px" alt="Slide 2">
+                    </div>
+                    <div class="slide">
+                        <img src="./Assets/vote bg 3.png" width="10px" alt="Slide 3">
+                    </div>
+                </div>
+                <div class="indicators">
+                    <span class="indicator active" data-slide="0"></span>
+                    <span class="indicator" data-slide="1"></span>
+                    <span class="indicator" data-slide="2"></span>
+                </div>
+            </div>
+            <div class="hero-content">
+                <h1>Streamline voter registration with VoteTech. Secure, user-friendly platform for easy online registration. Shape democracy in <br> <span>SRI LANKA.</span></h1>
+                <a href="admin-login.html" class="btn">Register</a>
+            </div>
+        </section>
+        <!-- image slider end -->
+
+        <!-- services start-->
+        <div class="services" id="services">
+            <h3 class="contents">Services</h3>
+            <ul>
+                <a href="nic-check.html" target="_blank">
+                    <li class="items">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <p>Registration for above 18 years</p>
+                    </li>
+                </a>
+                <a href="nic-check.html" target="_blank">
+                    <li class="items">
+                        <i class="fa fa-pencil" aria-hidden="true"></i>
+                        <p>Apply For Election</p>
+                    </li>
+                </a>
+                <a href="remove menbers.html" target="_blank">
+                    <li class="items">
+                        <i class="fa fa-eraser" aria-hidden="true"></i>
+                        <p>Remove Members from House</p>
+                    </li>
+                </a>
+                <a href="house Registration.html" target="_blank">
+                    <li class="items">
+                        <i class="fa fa-home" aria-hidden="true"></i>
+                        <p>House Registration</p>
+                    </li>
+                </a>
+                <a href="members Registration.html" target="_blank">
+                    <li class="items">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <p>Family Members Registration</p>
+                    </li>
+                </a>
+                <a href="admin-signup.html" target="_blank">
+                    <li class="items">
+                        <i class="fa-solid fa-user-lock"></i>
+                        <p>Admin Registration</p>
+                    </li>
+                </a>
+                <a href="members.php">
+                    <li class="items">
+                        <i class="fa-solid fa-rectangle-list"></i>
+                        <p>Family Details (House Members)</p>
+                    </li>
+                </a>
+                <li class="items disabled">
+                    <i class="fa-solid fa-address-card"></i>
+                    <p>Added or Deleted Members</p>
+                </li>
+                <li class="items disabled">
+                    <i class="fa-solid fa-file-pen"></i>
+                    <p>Applicants for Election</p>
+                </li>
+            </ul>
+        </div>
+        <!-- services end -->
+
+        <!-- About us start -->
+        <div class="about-us" id="aboutUs">
+            <h3>About Us</h3>
+            <div class="items">
+                <p>
+                    Welcome to VoteTech, where innovation meets democracy. Our mission is to revolutionize the voting process in Sri Lanka by providing a user-friendly digital platform for voter registration. With a focus on security, accessibility, and efficiency, we aim to empower every citizen to participate in shaping the future of our nation. Join us on this journey towards a more inclusive and transparent electoral system.
+                </p>
+                <img src="Assets/info.png" alt="">
+            </div>
+        </div>
+        <!-- About us end -->
+
+        <!-- Feedback start -->
+        <div class="contents" id="feedback">Feedback</div>
+        <div class="feedback">
+            <div class="description">
+                Your opinion matters! At VoteTech, we value your feedback to improve our system continuously. Whether you have suggestions, comments, or encounter any issues, we want to hear from you. Help us enhance your voting experience by sharing your thoughts and insights. Together, we can build a better electoral platform for all citizens of Sri Lanka.
+            </div>
+            <div class="form">
+                <form action="feedback.php" method="post">
+                    <div class="mb-2">
+                        <label for="Fullname" class="form-label"></label>
+                        <input type="text" class="form-control" name="fullname" id="Fullname" aria-describedby="emailHelp" placeholder="Fullname">
+
+                    </div>
+                    <div class="mb-2">
+                        <label for="nic" class="form-label"></label>
+                        <input type="text" class="form-control" name="nic" id="nic" placeholder="NIC">
+                    </div>
+                    <div class="mb-2">
+                        <label for="role" class="form-label"></label>
+                        <select id="disabledSelect" class="form-select" id="role" name="role">
+                            <option value="">Role</option>
+                            <option value="Admin">Admin</option>
+                            <option value="Citizen">Citizen</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="feedback" class="form-label"></label>
+                        <textarea class="form-control" id="feedback" name="feedback" rows="3" placeholder="Feedback">Describe your ideas...</textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary-2">Submit</button>
+                </form>
+            </div>
+        </div>
+        <!-- Feedback end -->
+
+        <!-- FAQ start -->
+        <div class="contents" id="faq">FAQ</div>
+        <div class="faq">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <strong>How secure is the VoteTech platform for voter registration?</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Vote Tech prioritizes security and employs robust measures to safeguard user data. We use encryption protocols and regular security audits to ensure a secure voting environment.
+
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <strong>Can anyone register as a voter on the VoteTech system?</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            No, only eligible voters who meet the criteria set by the election authorities can register on the VoteTech system. This ensures that only legitimate voters are able to participate in the voting process.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <strong>What if I encounter an issue with my voter registration on VoteTech?</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            If you encounter any issues with your voter registration on VoteTech, you can contact our customer support team for assistance. They will guide you through the process of resolving the issue and ensuring that your registration is accurate and up to date.
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                <strong>Is the VoteTech system accessible on mobile devices?</strong>
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Yes, the VoteTech system is accessible on mobile devices. You can easily access the system through a web browser on your smartphone or tablet, making it convenient for voters to participate in the voting process from anywhere at any time.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FAQ end -->
+    </main>
+
+    <!-- footer start -->
+    <footer>
+        <div class="items-2">
+            <div class="contact-us">
+                <h5>Contact Us</h5>
+                <div class="items-3">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>VoteTech Headquarters, Colombo, Sri Lanka</p>
+                </div>
+                <div class="items-3">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>+94 11 123 4567</p>
+                </div>
+                <div class="items-3">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>info@votetech.lk</p>
+                </div>
+            </div>
+            <div class="quick-links">
+                <h5>Quick Links</h5>
+                <div class="items-3">
+                    <!-- <i class="fa-solid fa-location-dot"></i> -->
+                    <p><a href="#aboutUs">About Us</a></p>
+                </div>
+                <div class="items-3">
+                    <!-- <i class="fa-solid fa-phone"></i> -->
+                    <p><a href="#feedback">Feedback</a></p>
+                </div>
+                <div class="items-3">
+                    <!-- <i class="fa-solid fa-envelope"></i> -->
+                    <p><a href="admin-login.html" target="_blank">Account</a></p>
+                </div>
+                <div class="items-3">
+                    <!-- <i class="fa-solid fa-envelope"></i> -->
+                    <p><a href="#faq"></a></p>
+                </div>
+            </div>
+            <div class="connect">
+                <h5>Connect with Us</h5>
+                <div class="items-3">
+                    <i class="fa-brands fa-facebook"></i>
+                    <p>Facebook</p>
+                </div>
+                <div class="items-3">
+                    <i class="fa-brands fa-instagram"></i>
+                    <p>Instagram</p>
+                </div>
+                <div class="items-3">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <p>Whatsapp</p>
+                </div>
+                <div class="items-3">
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <p>X</p>
+                </div>
+            </div>
+        </div>
+        <p>Copyright © 2024 VoteTech. All Rights Reserved.</p>
+    </footer>
+    <!-- footer end -->
+
+    <script src="./bootstrap_assets/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

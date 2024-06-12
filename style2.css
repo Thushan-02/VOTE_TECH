@@ -1,0 +1,84 @@
+/* secondary styles ( assets and colors) */
+
+/* buuton styles start */
+
+button {
+    border: none;
+    outline: none;
+}
+
+button:hover {
+    transform: scale(0.9);
+}
+
+.btn-primary-2 {
+    display: block;
+    background-color: rgba(30, 39, 114, 1);
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: .8rem;
+    padding: 5px 50px;
+    margin: 10px 15px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.53);
+}
+
+.btn-primary-3 {
+    display: block;
+    background-color: rgba(30, 39, 114, 1);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 10px 10px;
+    width: clamp(40vw, 80px, 100vw);
+    margin: 10px auto;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.53);
+}
+
+.btn-primary-4 {
+    display: block;
+    background-color: #dedfe6;
+    outline: none;
+    border: 1px solid rgba(30, 39, 114, 1);
+    border-radius: 5px;
+    color: rgba(30, 39, 114, 1);
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 10px 10px;
+    width: clamp(40vw, 80px, 100vw);
+    margin: 10px auto;
+}
+
+.btn-green {
+    color: whitesmoke;
+    background-color: green;
+    font-weight: bold;
+    padding: 2% 50px;
+    font-size: .8rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-red {
+    color: whitesmoke;
+    background-color: rgb(93, 10, 10);
+    font-weight: bold;
+    padding: 2% 35%;
+    font-size: .8rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.disabled {
+    opacity: 0.3;
+
+}
+
+/* buuton styles end */

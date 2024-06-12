@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Registration</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./bootstrap_assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <div class="container-fluid shadow mb-2 bg-body rounded pb-2">
+                <a class="navbar-brand d-flex justify-content-between align-items-center" href="#"><img src="Assets/Vote Tech.png" width="40" height="40" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse pe-5" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-lg-0 d-flex justify-content-between align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Feedback</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Account
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="admin-signup.html">Sign Up</a></li>
+                                <li><a class="dropdown-item" href="admin-login.html">Log In</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn-primary px-4 py-1 rounded" type="submit" href="admin-login.html" target="_blank">Get Started</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="d-flex">
+        <div class="form-2 shadow-lg">
+            <div class="logo">
+                <img src="Assets/Vote Tech.png" alt="">
+                <p class="desc"><b>Signup For House Account</b></p>
+            </div>
+            <form method="POST" action="house-reg.php" enctype="multipart/form-data">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="mb-2">
+                            <label for="full_name" class="form-label">House No</label>
+                            <input type="text" class="form-control" id="full_name" name="full_name" placeholder="Enter your House No." required>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="mb-2">
+                            <label for="name_of_chief_occupant" class="form-label">Name of Chief Occupant</label>
+                            <input type="text" class="form-control" id="name_of_chief_occupant" name="name_of_chief_occupant" placeholder="Enter Chief Occupant Name" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="mb-2">
+                            <label for="mobile_no" class="form-label">Mobile No</label>
+                            <input type="tel" class="form-control" id="mobile_no" name="mobile_no" placeholder="+94 123456789" required>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="mb-2">
+                            <label for="bill" class="form-label">Bill Detail</label>
+                            <input type="file" class="form-control" id="bill" name="bill" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="mb-2">
+                            <label for="address" class="form-label">Address</label>
+                            <input type="text" class="form-control" id="address" name="address" placeholder="Enter your Address" required>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="mb-2">
+                            <label for="H_password" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="H_password" name="H_password" placeholder="********" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="mb-2">
+                            <label for="GN_code" class="form-label">GN Code</label>
+                            <input type="text" class="form-control" id="GN_code" name="GN_code" placeholder="Enter your GN code" required>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="mb-2">
+                            <label for="c_password" class="form-label">Confirm Password</label>
+                            <input type="password" class="form-control" id="c_password" name="c_password" placeholder="********" required>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" class="btn-primary-2">Sign up</button>
+            </form>
+        </div>
+        <div class="pic">
+            <img src="Assets/5230178.png" alt="">
+        </div>
+    </main>
+    <footer>
+        <div class="items-2">
+            <div class="contact-us">
+                <h5>Contact Us</h5>
+                <div class="items-3">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>VoteTech Headquarters, Colombo, Sri Lanka</p>
+                </div>
+                <div class="items-3">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>+94 11 123 4567</p>
+                </div>
+                <div class="items-3">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>info@votetech.lk</p>
+                </div>
+            </div>
+            <div class="quick-links">
+                <h5>Quick Links</h5>
+                <div class="items-3">
+                    <!-- <i class="fa-solid fa-location-dot"></i> -->
+                    <p><a href="index.html" target="_parent">About Us</a></p>
+                </div>
+                <div class="items-3">
+                    <!-- <i class="fa-solid fa-phone"></i> -->
+                    <p><a href="index.html">Feedback</a></p>
+                </div>
+                <div class="items-3">
+                    <!-- <i class="fa-solid fa-envelope"></i> -->
+                    <p><a href="admin-login.html" target="_blank">Account</a></p>
+                </div>
+                <div class="items-3">
+                    <!-- <i class="fa-solid fa-envelope"></i> -->
+                    <p><a href="#faq"></a></p>
+                </div>
+            </div>
+            <div class="connect">
+                <h5>Connect with Us</h5>
+                <div class="items-3">
+                    <i class="fa-brands fa-facebook"></i>
+                    <p>Facebook</p>
+                </div>
+                <div class="items-3">
+                    <i class="fa-brands fa-instagram"></i>
+                    <p>Instagram</p>
+                </div>
+                <div class="items-3">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <p>Whatsapp</p>
+                </div>
+                <div class="items-3">
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <p>X</p>
+                </div>
+            </div>
+        </div>
+        <p>Copyright © 2024 VoteTech. All Rights Reserved.</p>
+    </footer>
+    <script src="./bootstrap_assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>
